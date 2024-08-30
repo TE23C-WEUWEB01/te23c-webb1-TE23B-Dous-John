@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+    background-image: url(./bilder/jake-weirick-bTmhh-Exx9s-unsplash.jpg)
+}
+
+h1 {
+    color: rgb(255, 0, 0);
+    font-size: 90px;
+}
+h2 {
+    color: bisque; 
+    font-size: 50px;
+}
+p {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}

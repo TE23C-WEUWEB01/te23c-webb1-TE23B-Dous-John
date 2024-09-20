@@ -1,8 +1,10 @@
 body {
-    background-image: url(".//bilder/quino-al-mBQIfKlvowM-unsplash\ \(2\).jpg");
+    background-image: url("./bilder/quino-al-mBQIfKlvowM-unsplash\ \(3\).jpg");
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    background-position: 0 -2000;
+    
 
 }
 
@@ -14,6 +16,7 @@ h1 {
     text-shadow: 5px 5px 0 #fff;
     margin-top: 100px;
     margin-left: 100px;
+
 
 }
 

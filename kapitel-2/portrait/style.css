@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&display=swap');
+
+body {
+    background-image: url("./bilder/liverpool.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: 550px 300px; */
+}
+
+h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-left: 450px;
+    color: rgb(255, 254, 254)
+}
+
+h2 {
+    font-family: "Lato", sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+p {
+    /* font-family: "Lora", serif;
+    color: rgb(255, 255, 255) */
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #11178e;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    margin-left: 900px;
+    border: 2px solid #fff;
+}
+
+li{
+    color: rgb(255, 255, 255);
+    
+    text-decoration: none;
+    background-color: #3112ba;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    margin-left: 100px;
+    border: 2px solid #fff;
+}

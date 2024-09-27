@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');
+
+body.sida1 {
+    background-image: url(./bilder/bild1..webp);
+}
+
+body.sida2 {
+    background-image: url(./bilder/bild2..webp);
+}
+
+body.sida3 {
+    background-image: url(./bilder/bild\ 3...webp);
+}
+
+body.sida4 {
+    background-image: url(./bilder/bild4.jpg);
+}
+
+body.sida5 {
+    background-image: url(./bilder/bild5.jpg);
+}
+
+body.sida6 {
+    background-image: url(./bilder/bild6.jpg);
+}
+
+
+div {
+    background-color: beige;
+    width: 500px;
+    margin: auto;
+    margin-top: 100px;
+    border: 5px dashed #555;
+    padding: 20px;
+}
+
+h1 {
+    font-family: "Holtwood One SC", serif;
+}
+
+p {
+    font-family: "Oswald", sans-serif;
+    font-size: 25px;
+}
+
+a {
+    font-size: 50px;
+    text-decoration: none;
+    color: blue;
+}

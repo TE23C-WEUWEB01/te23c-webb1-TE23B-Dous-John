@@ -46,7 +46,7 @@ h2{
 }
 
 /* boxarnas utseende */
-.box{
+.rowright{
     background-color: #000;
     color: #fff;
     padding: 50px;
@@ -58,7 +58,7 @@ h2{
 
 }
 
-.box1{
+.rowleft{
     background-color: #000;
     color: #fff;
     padding: 50px;

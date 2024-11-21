@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Permanent+Marker&display=swap');
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Layoutens utseende */
+body {
+    background-image: url(./bilder/taylor-heery-71sp4JBYO-U-unsplash\ \(8\).jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+div {
+    width: 700px;
+    background-color: rgba(255, 228, 196, 0.863);
+    margin: auto;
+    margin-top: 50px;
+    border: 10px solid rgb(255, 94, 0);
+    border-radius: 25px;
+    padding: 60px;
+    font-family: "Kalam", cursive;
+    text-shadow: 2px 2px white;
+    margin-bottom: 50px;
+
+}
+
+/* Innehålleets utseende */
+h1 {
+    margin-bottom: 50px;
+    font-family: "Permanent Marker", cursive;
+    font-size: 50px;
+    text-shadow: 5px 5px white;
+}
+
+h2 {
+    margin-bottom: 30px;
+}
+
+img {
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 30px;
+}
+
+.link{
+    font-size: 30px;
+}
+
+ul {
+    margin-bottom: 20px;
+    margin-left: 25px;
+    list-style-type: circle;
+}
+
+li {}

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Itim&family=Monsieur+La+Doulaise&family=Potta+One&display=swap');
 
 /* Enkel CSS-reset */
 html {
@@ -25,16 +25,15 @@ ul {
 }
 
 
-
-
 .container {
     display: flex;
+
 }
+
 
 .inlägg1 {
     background-color: #FAD9D9;
     width: 50%;
-    height: 800px;
 
 }
 
@@ -42,20 +41,22 @@ ul {
 .inlägg2 {
     background-color: aqua;
     width: 50%;
-    height: 800px;
-
 
 }
-
-
-
 
 
 h1 {
-    font-family: "Dosis", sans-serif;
+    font-family: "Potta One", system-ui;
+    font-size: 50px;
+
 }
 
-h2 {}
+
+h2 {
+    font-family: "Itim", cursive;
+
+}
+
 
 .center {
     margin-top: 100px;
@@ -63,6 +64,7 @@ h2 {}
     width: 400px;
 
 }
+
 
 img {
     width: 400px;
@@ -74,12 +76,12 @@ img {
 
 }
 
+
 .forp {
     text-align: center;
     
-    width: 150px; 
-
 }
+
 
 p {
     font-size: 20px;
@@ -87,6 +89,8 @@ p {
     text-align: center;
     color: #000;
     text-align: center;
+    font-family: "Covered By Your Grace", cursive;
+    
 }
 
 
@@ -94,26 +98,112 @@ a {
     color: #000000;
     text-decoration: none;
     background-color: #ffffff;
-    padding-left: 170px;
     padding-top: 10px;
-    padding-right: 170px;
     padding-bottom: 10px;
     border-radius: 8px;
     border: 2px solid #575757;
-    width: 150px;
+    
 }
 
-.fa-facebook{
-    background: #3B5998;
-    color: white;
-  }
- 
-  .fa{
+
+a:hover{
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #0000ff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    border: 2px solid #ffffff;
+    
+    
+}
+
+
+.knapp{
+    display: block;
+    width: 450px;
+    
+}
+
+
+
+
+.figur {
+    display: flex;
+    gap: 30px;
+    text-align: center;
+
+}
+
+
+.fa {
     padding: 20px;
     font-size: 30px;
-    width: 50px;
+    width: 60px;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
-  }
-  
+    margin-top: 30px;
+    margin-left: 40px;
+
+}
+
+
+.fa-facebook {
+    background: #1f48a0;
+    color: white;
+    border-radius: 50%;
+    border: 2px solid #1f48a0;
+
+}
+
+.fa-facebook:hover {
+    background: #0866FF;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid #ffffff;
+
+}
+
+.fa-snapchat-ghost {
+    background: #bcba27;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    border-radius: 50%;
+    border: 2px solid #bcba27;
+
+}
+
+.fa-snapchat-ghost:hover {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    border-radius: 5px;
+    border: 2px solid #ffffff;
+
+}
+
+
+.fa-instagram {
+    background: #FE1267;
+    color: white;
+    border-radius: 50%;
+    border: 2px solid #FE1267;
+
+}
+
+.fa-instagram:hover {
+    background: #FE1267;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid #ffffff;
+
+}
+
+
+.signatur {
+    font-family: "Monsieur La Doulaise", cursive;
+    font-size: 80px;
+    margin-left: 300px;
+
+}

@@ -207,3 +207,22 @@ a:hover{
     margin-left: 300px;
 
 }
+
+#pot {
+    bottom: 15%;
+    position: absolute;
+    animation: linear infinite;
+    animation-name: run;
+    animation-duration: 5s;
+  }
+  @keyframes run {
+    0% {
+      left: 0;
+    }
+    50% {
+      left: 100%;
+    }
+    100% {
+      left: 0;    
+    }
+  }

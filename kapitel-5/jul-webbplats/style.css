@@ -2,10 +2,18 @@
 html {
     box-sizing: border-box;
 }
-*, *:before, *:after {
+
+*,
+*:before,
+*:after {
     box-sizing: inherit;
 }
-body, h1, p, ul, nav {
+
+body,
+h1,
+p,
+ul,
+nav {
     margin: 0;
     padding: 0;
 }
@@ -17,12 +25,14 @@ body {
     background-size: cover;
     color: #fff;
     text-align: center;
+    background-image: url(./bilder/4499d750a7f471318b53b76e9294222e.gif);
 }
 
 header {
     background-color: rgba(255, 0, 0, 0.8);
     padding: 20px;
     border-bottom: 3px solid gold;
+    margin-top: 20px;
 }
 
 nav a {
@@ -34,7 +44,8 @@ nav a {
 }
 
 nav a:hover {
-    color: #ffd700; /* Guld */
+    color: #ffd700;
+    /* Guld */
 }
 
 h1 {
@@ -49,12 +60,16 @@ main {
 figure {
     margin: 20px auto;
     max-width: 600px;
+
+
 }
 
 img {
     max-width: 100%;
     border: 5px solid #fff;
     border-radius: 10px;
+    animation: spin 10s linear infinite;
+    margin-top: 100px;
 }
 
 figcaption {
@@ -66,12 +81,32 @@ p {
     font-size: 1.2rem;
     margin: 20px auto;
     max-width: 800px;
+
 }
 
 /* Extra julkänsla */
 @keyframes fall {
-    0% { transform: translateY(-10%); opacity: 1; }
-    100% { transform: translateY(110%); opacity: 0; }
+    0% {
+        transform: translateY(-10%);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(110%);
+        opacity: 0;
+    }
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+
+
 }
 
 .snowflake {

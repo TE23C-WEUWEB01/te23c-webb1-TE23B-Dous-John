@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Fjalla+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Smooch+Sans:wght@100..900&display=swap');
 /* Enkel CSS-reset */
 html {
     box-sizing: border-box;
@@ -17,7 +17,7 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 body{
     background-color: #f3f0DD;
     background-image: url(./bilder/image-134.jpg); 
-    background-position: -450px -125px;
+    background-position: 0px -200px;
     
     background-repeat: no-repeat; 
 }
@@ -25,6 +25,7 @@ body{
 .kontainer{
     width: 900px;
     margin: auto;
+    margin-top: 10px;
 }
 
 
@@ -32,9 +33,9 @@ body{
 
 .meny{ 
     display: flex;
-    justify-content: space-between;
     margin-top: 10px;
-    
+    width: 850px;
+    margin: auto;
 }
 
 .meny a{
@@ -42,11 +43,14 @@ body{
     color: #fff;
     text-align: center;
     margin: auto;
+    font-family: "Fjalla One", serif;
+    
 }
 
 .meny img{
     margin: auto;
     width: 150px;
+
 }
 
 
@@ -56,37 +60,48 @@ body{
     background-color: #F9F8F1;
     margin: auto;
     margin-top: 20px;
-
+    height: 1000px;
 }
 
 .sida h1{ 
     text-align: center;
-    padding-top: 20px;
+    padding-top: 30px;
     font-family: "Roboto", serif;
     font-size: 40px;
-
 }
 
-.sida p{ 
+.sida .info{ 
     text-align: center;
-    padding-top: 15px;
+    padding-top: 20px;
+    
 }
 
 .sida .router{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display:flex;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
     padding-top: 15px;
+    margin: auto;
+
+
 }
 
 .sida .router .produkt{
+
     text-align: center;
     border-radius: 10px;
-    
+    margin: auto;
     
 }
 
 .sida .router .produkt img{
+    height: 225px;
     width: 200px;
+    margin: auto;
 }
 
-.sida .router .produkt p{}
+.sida .router .produkt .Fix{
+    font-family: "Fjalla One", serif;
+    margin: auto;
+    
+}
+

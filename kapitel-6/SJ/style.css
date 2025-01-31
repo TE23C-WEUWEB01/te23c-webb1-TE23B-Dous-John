@@ -1,0 +1,137 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(./bilder/cq5dam.web.bg.1920.y.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+
+}
+
+.kontainer{
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.logo{
+    width: 100px;
+    
+}
+
+h1{
+    color: #fff;
+    margin-top: 10px;
+
+}
+
+input{
+    width: 400px;
+    height: 50px;
+    border-radius: 25px; 
+    border: none; 
+    padding: 20px;
+    font-size: 16px;
+    outline: none; 
+    background-color: white;
+    margin-top: 20px;
+    
+}
+
+
+.sida{
+    
+}
+
+.sida .router{
+    display: grid;
+    grid-template-columns: 1fr 1fr ; 
+    margin: auto;
+    width: 600px;
+}
+
+.sida .router .info1{
+    background-color: #fff;
+    width: 100px;
+    
+}
+.sida .router .info1 h2{
+    
+
+}
+.sida .router .info1 p{
+    
+}
+
+.sida .router a .info2{
+    text-decoration: none;
+    color: #000;
+}
+.sida .router .info2 {
+    
+    background-color: #E8F7F6;
+}
+.sida .router .info2:hover {
+    margin: auto;
+    background-color: #c0cecd;
+}
+.sida .router .info2 h2{
+    
+}
+.sida .router .info2 p{
+    
+}    
+
+.sida .router .info3{
+    margin: auto;
+}
+.sida .router .info3 img{ 
+    margin: auto;
+    width: 200px;
+
+}
+
+
+
+.sida .router .info4{ 
+    background-image: url(./bilder/cq5dam.web.590.y\ \(1\).jpg);
+    background-repeat:no-repeat;
+    margin: auto;
+}
+.sida .router .info4 h2{
+    margin: auto;
+}
+
+.meny{
+    text-align: center;
+    background-color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    
+
+}
+
+.meny a{
+    text-decoration: none;
+    text-align: center;
+    color: #D9D3CC;
+    
+}
+.meny a:hover{
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+    
+}
+

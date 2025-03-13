@@ -1,5 +1,18 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
 .wanderer{
     background-color: #000;
+    color: #fff;
 }
 .wanderer .vimeo {
     position: fixed;
@@ -23,3 +36,22 @@
     transform: translate(-50%, -50%);
     border: none;
 }
+.wanderer main {
+    /* css trick för vertikal centrering */
+    display: grid;
+    align-items: center;
+}
+.mars h1 {
+    color: #5d0b0d ;
+}
+.mars header nav a {
+    color: #5d0b0d ;
+}
+.mars header nav a:hover {
+    border-bottom: 3px solid #5d0b0d;
+}
+.mars header nav a.active {
+    border-bottom: 3px solid #5d0b0d;
+}
+
+
